@@ -24,7 +24,7 @@ body {
 
 #keyboard { 
   width: 700px;
-  margin: 0 auto;
+  margin: 0 auto 20px;
   padding: 5px;
   background: #1e1134;
   border: 3px solid #1e1134;
@@ -63,4 +63,12 @@ body {
 
 .hidden {
   display: none;
+}
+
+.discription {
+  color: #494059;
+  font-family: "Consolas", "Courier New", monospace;
+  margin: 7px auto;
+  text-align: center;
+  max-width: 600px;
 }
