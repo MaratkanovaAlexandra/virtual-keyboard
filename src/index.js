@@ -12,3 +12,7 @@ if (!lang) {
 }
 
 Keyboard.init(document.body, lang);
+events.keydown();
+events.keyup();
+events.mousedown();
+events.mouseup();
