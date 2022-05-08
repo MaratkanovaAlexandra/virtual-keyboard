@@ -214,6 +214,7 @@ class Events {
 
       const keys = Array.from(document.querySelectorAll('.key'));
       const screen = document.querySelector('#screen');
+      screen.focus();
       const index = screen.selectionEnd;
 
       const dontPrintSpecialKey = this.specialKeyEvents(key.classList[1], key, keys);
