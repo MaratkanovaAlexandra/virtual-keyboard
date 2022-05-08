@@ -130,6 +130,7 @@ class Events {
 
   additionalKeyEvents(code, screen, index) {
     let dontPrint = false;
+    if (code === 'MetaLeft') dontPrint = true;
     if (code === 'Tab') {
       dontPrint = true;
       screen.value = `${screen.value.substring(0, index)}    ${screen.value.substring(index)}`;
