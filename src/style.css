@@ -46,7 +46,7 @@ body {
   border-radius: 3px;
   cursor: pointer;
   user-select: none;
-  transition: background-color 0.2s;
+  transition: background-color 0.2s, transform 0.2s;
 }
 
 .key:hover {
@@ -55,6 +55,7 @@ body {
 
 .active {
   background-color: #c14156;
+  transform: scale(0.9);
 }
 
 .active:hover{
